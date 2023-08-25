@@ -1,0 +1,62 @@
+
+### Web Architecture Plan
+
+#### Frontend
+
+1. **Login Page**
+   - Authentication
+   - User login/logout
+
+2. **Dashboard**
+   - List of scenes
+   - User settings (optional)
+
+3. **Scene Management Page**
+   - Create new scene
+   - Edit scene name and description
+   - Delete scene
+   - Enter specific scene's node management page
+
+4. **Node Management Page (Within Specific Scene)**
+   - Create new node
+   - Edit node name and description
+   - Delete node
+   - Manage node's multimedia content
+   - Node ordering (drag and drop)
+
+5. **Multimedia Upload and Management Interface**
+   - Upload images, videos, audio, etc.
+   - Edit or delete uploaded media
+
+6. **Preview Interface**
+   - Preview specific scene and nodes
+   - Preview multimedia content
+
+#### Backend
+
+1. **Authentication API**
+   - Login and logout functions
+   - Permission management
+
+2. **Scene Management API**
+   - CRUD (Create, Read, Update, Delete) scenes
+
+3. **Node Management API**
+   - CRUD nodes (within specific scenes)
+
+4. **Multimedia Management API**
+   - Upload and delete multimedia
+   - Get multimedia list
+
+5. **Database Synchronization**
+   - Synchronize frontend changes to MySQL database
+
+### Tech Stack
+
+- Frontend Framework: Vue.js
+- Backend Language: Django (Python)
+- Database: MySQL
+
+### Deployment
+
+- Use Docker for containerized deployment to ensure environment consistency.
