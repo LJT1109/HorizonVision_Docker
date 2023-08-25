@@ -1,6 +1,6 @@
 
 # Web Development Project for XR Navigation Platform
-[英文版](README.md)[中文版](README_Chinese.md)
+[英文版](README.md)/[中文版](README_Chinese.md)
 
 ## Introduction
 
