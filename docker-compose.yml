@@ -3,8 +3,8 @@ version: '3.1'
 services:
   backend:
     build:
-      context: .
-      dockerfile: Dockerfile.backend
+      context: ./backend
+      dockerfile: ../Dockerfile.backend
     ports:
       - "8000:8000"
     depends_on:
@@ -12,8 +12,8 @@ services:
 
   frontend:
     build:
-      context: .
-      dockerfile: Dockerfile.frontend
+      context: ./frontend
+      dockerfile: ../Dockerfile.frontend
     ports:
       - "3000:3000"
 
