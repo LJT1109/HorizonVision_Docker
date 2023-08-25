@@ -10,5 +10,3 @@ services:
       - "8080:8080"
   php:
     build: ./php
-    ports:
-      - "3306:3306"
